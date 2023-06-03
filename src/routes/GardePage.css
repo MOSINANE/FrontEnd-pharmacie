@@ -1,0 +1,25 @@
+.garde-page {
+    padding: 20px;
+}
+
+.garde-form {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.garde-form label {
+    margin-right: 10px;
+}
+
+.garde-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.garde-item {
+    margin-bottom: 5px;
+}
+
+.garde-item button {
+    margin-left: 10px;
+}

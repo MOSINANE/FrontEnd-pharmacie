@@ -1,0 +1,176 @@
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 20px;
+    width: 600px;
+    margin: 20px;
+}
+
+h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.list-view {
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 20px;
+    width: 600px;
+    margin: 20px;
+}
+
+.tablegarde{
+    width: 550px;
+    border-spacing: 20px;
+}
+
+table th {
+    text-align: left; /* Alignement du texte à gauche pour les noms de colonne */
+}
+
+table td {
+    text-align: left; /* Alignement du texte à gauche pour le contenu des colonnes */
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+select {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+}
+
+/* Styling for dropdown list options */
+select option {
+    font-size: 16px;
+}
+
+.pharmacie-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.pharmacie-table th,
+.pharmacie-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+.pharmacie-table th {
+    background-color: #f2f2f2;
+}
+
+.pharmacie-table button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.pharmacie-table button:hover {
+    background-color: #c82333;
+}
+
+.loading-message {
+    margin-top: 20px;
+}
+
+.chart-container {
+    width: 1000px;
+}
+
+
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.loginContainer {
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    padding: 20px;
+    width: 400px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.center {
+    text-align: center;
+}
+
+.inputbox {
+    margin-bottom: 20px;
+}
+
+.inputbox span {
+    font-weight: bold;
+}
+
+.inputbox input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+.errlogin {
+    color: red;
+    text-align: center;
+}
+
+.linkd {
+    text-decoration: none;
+}
+
+
+.text-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+/* Style the map container */
+.map-container {
+    height: 400px;
+    margin-top: 20px;
+}
